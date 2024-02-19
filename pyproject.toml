@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-chatbot-beta"
+version = "0.1.0"
+description = "This is a first build of what a AI chatbot could provide as a project management tool by providing context through using RAG on uploaded documents to provide context and a concise answer based on the users question"
+authors = ["William <will.downing00@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.31.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

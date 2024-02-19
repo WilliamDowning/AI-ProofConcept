@@ -1,5 +1,5 @@
 {
-	"name": "poetry3-poetry-pyenv",
+	"name": "AI-Concept",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
@@ -20,12 +20,9 @@
             }
 		},
 		"features": {
-			"ghcr.io/devcontainers/features/sshd:1": {
-				"version": "latest"
-			},
-			"ghcr.io/itsmechlark/features/snowflake-odbc:1": {
-				"version": "3.1.0"
-			}
+			"ghcr.io/devcontainers/features/sshd:1": {},
+			"ghcr.io/itsmechlark/features/snowflake-odbc:1": {},
+			"ghcr.io/akhildevelops/devcontainer-features/pip:0": {}
 		}
 
 	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
